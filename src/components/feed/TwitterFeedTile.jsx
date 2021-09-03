@@ -2,6 +2,7 @@ import React from 'react';
 import moment from 'moment';
 
 var TwitterFeedTile = (props) => {
+  //console.log(props.postData);
   return (
     <div className="TW-post-tile">
       <i className="TW-icon fab fa-twitter"></i>

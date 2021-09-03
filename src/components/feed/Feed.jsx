@@ -172,5 +172,3 @@ var Feed = ({ setIsGoogleSignedIn }) => {
     </div>
   );
 };
-
-export default Feed;

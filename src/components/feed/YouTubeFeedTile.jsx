@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import moment from "moment";
 
 var YouTubeFeedTile = (props) => {
+  //console.log(props.postData)
   var desc = props.postData.snippet.description;
   if (desc.length > 250) {
     desc = desc.substring(0, 50) + "...";
